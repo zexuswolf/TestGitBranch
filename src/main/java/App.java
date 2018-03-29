@@ -6,6 +6,10 @@ public class App {
         return "Hello world.";
     }
 
+    public String goodbye(String name) {
+        return "Good bye "+name;
+    }
+
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
     }
